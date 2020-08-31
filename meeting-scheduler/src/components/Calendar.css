@@ -1,0 +1,54 @@
+
+.tableContainer {
+    display: flex;
+    padding: 10px 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.timeSpace {
+    width: 50px;
+}
+
+.timeSpace td {
+    width: 50px;
+    height: 50px;
+    display:table-cell;
+    /* font-weight: bold; */
+    font-size: x-small;
+    text-align: right;
+    vertical-align: top;
+    padding: 0px 3px 0px 0px;
+}
+
+table.calendar {
+    width: 98%;
+}
+
+table.calendar tr {
+    height: 50px;
+}
+
+table.calendar td, table.calendar th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0px;
+}
+  
+/* tr:nth-child(even) {
+    background-color: #dddddd;
+} */
+
+.CalendarHeaderCell {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.CalendarHeaderCell > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

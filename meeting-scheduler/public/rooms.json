@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "roomName": "Italy",
+        "maxCapacity": 10
+    },
+    {
+        "id": 2,
+        "roomName": "France",
+        "maxCapacity": 20
+    },
+    {
+        "id": 3,
+        "roomName": "Denmark",
+        "maxCapacity": 10
+    },
+    {
+        "id": 4,
+        "roomName": "Paris",
+        "maxCapacity": 5
+    },
+    {
+        "id": 5,
+        "roomName": "Venice",
+        "maxCapacity": 3
+    }
+]

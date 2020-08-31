@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.PageTitle {
+  color: white;
+  background-color: #4677c1;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}

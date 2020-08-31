@@ -1,0 +1,63 @@
+.DialogContainer {
+    /* z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25); */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    /* z-index: 100; */
+    background-color: white;
+}
+
+.DialogContent {
+    padding: 20px;
+}
+
+.DialogTitle {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(122, 122, 219);
+}
+
+.row {
+    display:flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+label {
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 380px;
+}
+
+.warning {
+    margin-top: 30px;
+    color: orange;
+}
+
+.ActionsContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.leftButton {
+    margin-right: 30px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
